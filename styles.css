@@ -1,8 +1,8 @@
+
 body {
     text-align: center;
     background: linear-gradient(45deg, rgba(153, 218, 255, 1) 0%, rgb(0, 105, 105) 100%);
-    font-family: sans-serif;
-    height: 100vh;
+    font-family: 'Nova Cut';
 }
 
 h1 {
@@ -27,6 +27,7 @@ h2:first-of-type {
     flex-flow: column nowrap;
     justify-content: space-between;
     width: 200px;
+  font-family: 'Cuprum';
 }
 
 .size-label {
@@ -36,6 +37,7 @@ h2:first-of-type {
 
 .size-input {
     font-size: 20px;
+    font-family: inherit;
     margin-top: 10px;
     line-height: 30px;
     text-align: center;
@@ -52,6 +54,7 @@ h2:first-of-type {
     cursor: pointer;
     font-size: 20px;
     margin-top: 20px;
+    font-family: 'Cuprum';
 }
 
 .size-btn:active {
