@@ -36,12 +36,14 @@ function makeGrid() {
         listd = $("#pixel_canvas td ");
         listd.css("background-color", "white");
     });
-
 }
 
 //OUTSIDE THE FUNCTION MAKEGRID
 //listens to submit form sizePicker
+$(document).ready( function(){
 $('#sizePicker').submit(function (e) {
     e.preventDefault(); // prevents the refresh page
     makeGrid();
 });
+});
+
